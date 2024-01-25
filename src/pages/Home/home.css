@@ -1,9 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*  Loading  */
 
-body{
+.loading{
 
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
+    flex-direction: column
+    
+}
+
+.loading p{
+
+    font-size: 16px;
+    color: white;
+    
+}
+
+.load{
+
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    border: 4px solid #2E95D3;
+    border-left: 4px solid transparent;
+    animation: rodar 1s linear  infinite;
 
 }
+
+@keyframes rodar {
+
+    0% {
+
+        rotate: 0deg;
+
+    }100%{
+
+        rotate: 360deg;
+
+
+    }
+
+}
+
+/*   Home   */
+.top-film{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.top-film img{
+
+    width: 100%;
+    height: 80%;
+    object-fit: cover ;
+    border-top-left-radius: 4px ;
+    border-top-right-radius: 4px ;
+
+}
+
+
+.top-film article{
+    width: 20%;
+    margin: 0px 1vw;
+    
+}
+
+.top-film p{
+
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px 
+}
+
+.top-film a{
+
+    background-color:#2E95D3;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 0px;
+    margin-top: -4px;
+
+}
+
+@media (max-width: 1100px) {
+    .top-film article {
+        width: 25%;
+    }
+    .top-film p{
+        font-size: 1.8vw;
+
+    }
+}
+
+@media (max-width: 740px) {
+    .top-film article {
+        width: 40%;
+    }
+
+    .top-film p{
+        font-size: 2.7vw;
+
+    }
+}
+
