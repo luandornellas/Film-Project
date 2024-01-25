@@ -1,10 +1,9 @@
+import Routers from "./router";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
-    <h1>Olá</h1>
+    <Routers/>
   );
 }
 
-export default App;
+
