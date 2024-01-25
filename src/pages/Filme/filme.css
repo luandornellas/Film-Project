@@ -1,0 +1,30 @@
+
+.filme{
+
+    background-color: black;
+    padding: 2vh 2vw;
+    display: flex;
+    color: white;
+    justify-content: center;
+
+}
+
+.discrisao{
+
+    padding: 0vw 1vw;
+    width: 70%;
+
+}
+
+.discrisao h3{
+
+    margin: 10px 0px;
+
+}
+
+.filme img{
+
+    width: 22%;
+
+}
+

@@ -13,6 +13,23 @@
 
     background-color:  #2E95D3;
     color: white;
-    padding: 5px 20px;
+    padding: 6px 24px;
+    font-size: 18px;
+
+}
+
+.error h1{
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+
+}
+
+.error p{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
 
 }

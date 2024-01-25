@@ -5,7 +5,8 @@ export default function Error(){
 
     return(
         <div className="error">
-            <h2>Pagina Não Encontrada!</h2>
+            <h1>404</h1>
+            <p>Pagina Não Encontrada!</p>
             <Link to="/">Voltar</Link>
         </div>
     )
