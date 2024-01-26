@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <header>
             <Link to="/" className="logo" >PrimeFlix</Link>
-            <Link to="/Favoritos" className="btn-fav" >Meus Favoritos</Link>
+            <Link to="/favoritos" className="btn-fav" >Meus Favoritos</Link>
         </header>
     );
 }

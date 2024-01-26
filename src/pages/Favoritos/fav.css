@@ -1,0 +1,55 @@
+.fav h1{
+    text-align: center;
+
+}
+
+.fav li {
+
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.fav li img {
+
+    width: 100px;
+
+}
+
+.fav-cont{
+
+    margin-left: 10px;
+
+}
+
+.fav-cont button{
+
+    margin-left: 10px;
+    background-color: rgb(156, 1, 1);
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.fav-cont a{
+
+    background-color: #2E95D3;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.fav-cont p {
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+
